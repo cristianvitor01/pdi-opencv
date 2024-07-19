@@ -1,0 +1,15 @@
+Sinais -> podem ser continuos ou discretos, analogicos ou digitais.
+
+Digitalização de imagem
+
+Amostagem -> amostrar a imagem em um grid, ou seja, pegar pontos da imagem e transformar em pixels.
+Quantização -> definir nível de cinza para cada pixel.
+
+Resolução espacial -> quantidade de pixels em uma imagem. Quanto maior a densidade de pixels, maior a resolução espacial.
+
+Profunidade da imagem -> número de níveis cinza da imagem.
+
+Ruidos -> interferências na imagem.
+
+tipos comuns: ruido de sal e pimenta, ruido gaussiano, ruido periódico.
+
