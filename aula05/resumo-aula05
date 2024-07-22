@@ -1,0 +1,31 @@
+Operações lógicas e aritméticas em imagens
+
+Adição -> soma de pixels de duas imagens.
+-> Aplicada em imagens de mesmo tamanho
+-> geralmente usada em remoção de ruidos
+
+Subtração -> subtração de pixels de duas imagens.
+-> utilizada para detectar diferenças entre imagens
+-> regiões inalteradas são eliminadas e destaca-se elementos em movimento
+
+Multiplicação e Divisão -> aplicadas no mascaramento e correção de sombreamento
+
+Alphablending -> combinação de duas imag
+
+Operações lógicas e aritméticas em imagens
+
+Ajuste de brilho e contraste
+
+g(x,y) = a*f(x,y) + b
+se b > 0 -> aumenta o brilho
+se b < 0 -> diminui o brilho
+
+ajuste de constraste -> aumenta a diferença entre os níveis de cinza
+
+g(x,y) = a*f(x,y)
+se a > 1 -> aumenta o contraste
+se a < 1 -> diminui o contraste
+
+efeito negativo
+
+g(x,y) = 255 - f(x,y)
