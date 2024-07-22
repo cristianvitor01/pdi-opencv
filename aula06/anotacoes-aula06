@@ -1,0 +1,28 @@
+Transformações geométricas
+
+- modificam a relação espacial dos pixels da imagem
+-- tranformação espacial de coordenadas
+-- interpolação dos pixels resultantes
+
+Direta
+Inversa
+
+Tranformações geométricas
+- translação
+- rotação
+- escala
+- cisalhamento
+
+Tranformação afim (linear)
+- preserva a relação de paralelismo entre as retas
+- As operações podem ser combinadas em uma única
+função matemática multiplicando-se as matrizes
+- A matriz resultante realiza uma transformação
+denominada transformação afim
+
+- A OpenCV consegue realizar a inferência da matriz
+correspondente à transformação afim a partir do
+mapeamento de pelo menos 3 pontos entre imagens
+
+# cv.getAffineTransform(pts1,pts2)
+
