@@ -1,0 +1,25 @@
+Histograma e Thresholding
+
+Histograma
+
+- fornece a frequencia de ocorrencia dos valores da matriz
+- apresenta informação sobre a distribuição dos valores em cada canal de cor
+
+Equalização de histograma
+
+- determina uma função de transformação para produzir uma imagem com um histograma uniforme
+
+Thresholding
+
+- é um processo de segmentação de imagem
+- Realiza a separação baseada na variação de intensidade dos pixels do objeto e do objeto que está ao fundo
+- Intensidade do pixel é comparada com um valor de limiar (threshold)
+- Depois de separados, atribui um determinado valor para indentifica-lós
+
+Tipos de Thresholding
+
+- Binary
+- Binary Inverted
+- Truncate
+- Threshold to Zero
+- Threshold to Zero Inverted
