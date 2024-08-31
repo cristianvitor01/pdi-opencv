@@ -1,0 +1,30 @@
+Filtragem espacial
+
+tipos:
+- media artimética -> atenua variaçoes locais
+- média geométrica -> perde menos detalhes que a média arimética
+- média harmônica -> bom desempenho para o ruído gaussiano
+- média contra-harmônica -> eficiente para o ruído de sal e pimenta
+
+Filtros de estatística
+- mediana -> eficiente para ruídos aleatórios
+- máximo e minimo -> caso geral do filtro de mediana
+- média alfa cortada -> usado quando se tem muitos tipos de ruídos
+
+Filtros no dominio da frequencia
+
+- ruídos periódicos podem aparecer como picos de energia.
+- filtro seletivo isola o ruído
+
+inpanting
+
+- técnica eficiente para pontos pretos, traços e etc.
+- subtstitui o pixel defeituoso por um valor médio dos pixels vizinhos
+
+TELEA
+- começa na fronteira do objeto e vai preenchendo o interior
+- calcula a soma ponderada dos pixels vizinhos
+
+NS
+- baseado na dinâmica de fluidos
+- percorre arestas e regiões conhecidas até regiões desconhecidas

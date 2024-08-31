@@ -1,0 +1,23 @@
+Processamento morfologico de imagens binarias
+
+- operaçoes baseadas nas formas das imagens
+- recebe uma imagem de entrada e fornece um resultado de saida
+
+operações
+- erosão -> diminui o tamanho (expressura) dos objetos
+- dilatação -> aumenta o tamanho dos objetos
+- abertura -> erosão seguida de dilatação
+- closing -> dilatação seguida de erosão
+- gradiente morfologico -> diferença entre dilatação e erosão
+- top hat -> diferença entre a imagem original e a abertura, revela regiões claras
+- black hat -> diferença entre o fechamento e a imagem original
+
+percorre a imagem substituindo o valor do pixel central pelo maior valor dentro do kernel
+
+▪ dilation = cv2.dilate(img, kernel, iterations = 1)
+▪ erosion = cv2.erode(img, kernel, iterations = 1)
+▪ cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)
+▪ cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)
+▪ cv2.morphologyEx(img, cv2.MORPH_GRADIENT, krnl)
+▪ cv2.morphologyEx(img, cv2.MORPH_TOPHAT, krnl)
+▪ cv2.morphologyEx(img, cv2.MORPH_BLACKHAT, krnl)
